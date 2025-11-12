@@ -4,13 +4,13 @@ python-dotenv
 requests
 google-generativeai
 
-# ---- Text & Speech ----
-gTTS
-SpeechRecognition
-pyttsx3
-pyaudio
-plyer
-simpleaudio
+# ---- Text & Speech (Cloud-compatible) ----
+gTTS  # Works online; use st.audio() to play the output
+# SpeechRecognition  # Needs microphone, not supported on Streamlit Cloud
+# pyttsx3  # Requires system-level audio (not supported)
+# pyaudio  # Causes build failure (needs portaudio)
+# plyer  # Not needed for web
+# simpleaudio  # Not supported on Streamlit Cloud
 
 # ---- Data & Parsing ----
 dateparser
