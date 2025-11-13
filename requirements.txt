@@ -1,36 +1,24 @@
-# ---- Core App ----
 streamlit
 python-dotenv
 requests
 google-generativeai
 
-# ---- Text & Speech ----
 gTTS
-SpeechRecognition
-pyttsx3
-pyaudio
-plyer
-simpleaudio
 
-# ---- Data & Parsing ----
 dateparser
 beautifulsoup4
 duckduckgo-search
 
-# ---- Local Agents ----
 pandas
 jsonschema
 
-# ---- Optional AI / Email helpers ----
 email-validator
 
-# ---- For Google Calendar Sync (optional but recommended) ----
 google-api-python-client
 google-auth
 google-auth-oauthlib
 google-auth-httplib2
 
-# ---- System / Utility ----
 urllib3
 certifi
 idna
